@@ -8,4 +8,4 @@ CREATE TABLE [dbo].[Contatos] (
 
 	CONSTRAINT [PK_Contatos] PRIMARY KEY CLUSTERED ([Id] ASC),
 	CONSTRAINT [FK_Contatos_Usuarios] FOREIGN KEY ([UsuarioId]) REFERENCES [dbo].[Usuarios] ([Id]) ON DELETE CASCADE
-)
+);
