@@ -1,4 +1,6 @@
-﻿CREATE TABLE [dbo].[Contatos] (
+﻿/* One to One */
+
+CREATE TABLE [dbo].[Contatos] (
 	[Id] INT IDENTITY(1,1) NOT NULL,
 	[UsuarioId] INT NOT NULL,
 	[Telefone] VARCHAR(15) NULL,
