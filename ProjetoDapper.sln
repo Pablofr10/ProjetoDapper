@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{15EDA517-C750-4CEC-AE2D-CDEA088AF00A}"
+	ProjectSection(SolutionItems) = preProject
+		Contato.sql = Contato.sql
+		EnderecoEntrega.sql = EnderecoEntrega.sql
+		Usuario.sql = Usuario.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
